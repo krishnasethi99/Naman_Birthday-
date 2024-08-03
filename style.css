@@ -51,14 +51,14 @@ body {
 }
 
 .outside h1 {
-    font-size: 2rem;
+    font-size: 1.5rem; /* Base size for h1 */
     font-weight: bold;
     color: salmon;
     margin-bottom: 10px;
 }
 
 .outside h3 {
-    font-size: 1rem;
+    font-size: 1rem; /* Base size for h3 */
 }
 
 .inside {
@@ -140,35 +140,11 @@ body {
     }
 
     .outside h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .outside h3, .inside h3 {
-        font-size: 0.9rem;
-    }
-
-    .inside img {
-        margin-bottom: 10px;
-    }
-
-    .block {
-        top: 80%;
-        right: 5%;
-        width: 90%;
-    }
-
-    .frames {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .frames img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .frames p {
-        font-size: 12px;
+        font-size: 0.8rem;
     }
 }
 
@@ -179,11 +155,11 @@ body {
     }
 
     .outside h1 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .outside h3, .inside h3 {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .inside img {
